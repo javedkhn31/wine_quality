@@ -260,3 +260,331 @@ x==========x]
 [2023-08-06 16:56:42,345: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2023-08-06 18:33:51,631: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 18:33:51,650: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 18:33:51,662: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 18:33:51,668: INFO: common: created directory at: artifacts]
+[2023-08-06 18:33:51,672: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 18:33:54,366: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-08-06 18:38:50,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 18:38:50,910: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 18:38:50,918: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 18:38:50,925: INFO: common: created directory at: artifacts]
+[2023-08-06 18:38:50,930: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 18:38:51,657: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-08-06 19:00:35,784: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-06 19:00:35,794: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:00:35,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:00:35,804: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:00:35,807: INFO: common: created directory at: artifacts]
+[2023-08-06 19:00:35,808: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-06 19:00:36,721: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0F2C:0716:5AEC75:6DD256:64CFA07C
+Accept-Ranges: bytes
+Date: Sun, 06 Aug 2023 13:30:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691328637.816859,VS0,VE433
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 200f039311c07d24ac0ddf18332fb760688f9497
+Expires: Sun, 06 Aug 2023 13:35:37 GMT
+Source-Age: 0
+
+]
+[2023-08-06 19:00:36,787: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:00:36,788: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-08-06 19:00:36,793: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:00:36,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:00:36,803: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:00:36,804: INFO: common: created directory at: artifacts]
+[2023-08-06 19:00:36,806: INFO: common: created directory at: artifacts/data_validation]
+[2023-08-06 19:00:36,860: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:00:36,862: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-08-06 19:00:36,870: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:00:36,872: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:00:36,875: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:00:36,876: INFO: common: created directory at: artifacts]
+[2023-08-06 19:00:36,877: INFO: common: created directory at: artifacts/data_transformation]
+[2023-08-06 19:00:36,925: INFO: data_transformation: Splited data into training and test sets]
+[2023-08-06 19:00:36,925: INFO: data_transformation: (1199, 12)]
+[2023-08-06 19:00:36,926: INFO: data_transformation: (400, 12)]
+[2023-08-06 19:00:36,927: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:00:36,927: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-08-06 19:00:36,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:00:36,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:00:36,938: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:00:36,939: INFO: common: created directory at: artifacts]
+[2023-08-06 19:00:36,940: INFO: common: created directory at: artifacts/model_trainer]
+[2023-08-06 19:00:37,000: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:00:37,000: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2023-08-06 19:00:37,005: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:00:37,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:00:37,008: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:00:37,008: INFO: common: created directory at: artifacts]
+[2023-08-06 19:00:37,010: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:00:37,796: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+==========================================']
+Traceback (most recent call last):
+  File "C:\Users\javed\wine quality\main.py", line 59, in <module>
+    data_ingestion.main()
+  File "c:\users\javed\wine quality\src\mlProject\pipeline\stage_05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "c:\users\javed\wine quality\src\mlProject\components\model_evaluation.py", line 40, in log_into_mlflow
+    with mlflow.start_run():
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='
+[2023-08-06 19:06:32,998: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-06 19:06:33,005: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:06:33,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:06:33,006: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:06:33,006: INFO: common: created directory at: artifacts]
+[2023-08-06 19:06:33,006: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-06 19:06:33,006: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-08-06 19:06:33,020: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:06:33,020: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-08-06 19:06:33,024: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:06:33,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:06:33,024: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:06:33,024: INFO: common: created directory at: artifacts]
+[2023-08-06 19:06:33,024: INFO: common: created directory at: artifacts/data_validation]
+[2023-08-06 19:06:33,069: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:06:33,070: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-08-06 19:06:33,078: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:06:33,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:06:33,089: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:06:33,090: INFO: common: created directory at: artifacts]
+[2023-08-06 19:06:33,092: INFO: common: created directory at: artifacts/data_transformation]
+[2023-08-06 19:06:33,146: INFO: data_transformation: Splited data into training and test sets]
+[2023-08-06 19:06:33,147: INFO: data_transformation: (1199, 12)]
+[2023-08-06 19:06:33,149: INFO: data_transformation: (400, 12)]
+[2023-08-06 19:06:33,152: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:06:33,153: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-08-06 19:06:33,158: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:06:33,159: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:06:33,161: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:06:33,162: INFO: common: created directory at: artifacts]
+[2023-08-06 19:06:33,162: INFO: common: created directory at: artifacts/model_trainer]
+[2023-08-06 19:06:33,225: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:06:33,226: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2023-08-06 19:06:33,233: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:06:33,235: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:06:33,237: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:06:33,238: INFO: common: created directory at: artifacts]
+[2023-08-06 19:06:33,239: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:06:33,976: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+==========================================']
+Traceback (most recent call last):
+  File "C:\Users\javed\wine quality\main.py", line 59, in <module>
+    data_ingestion.main()
+  File "c:\users\javed\wine quality\src\mlProject\pipeline\stage_05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "c:\users\javed\wine quality\src\mlProject\components\model_evaluation.py", line 40, in log_into_mlflow
+    with mlflow.start_run():
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='
+[2023-08-06 19:22:28,992: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:22:29,003: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:22:29,012: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:22:29,016: INFO: common: created directory at: artifacts]
+[2023-08-06 19:22:29,020: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:24:17,213: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:24:17,221: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:24:17,227: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:24:17,231: INFO: common: created directory at: artifacts]
+[2023-08-06 19:24:17,243: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:29:17,620: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:29:17,637: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:29:17,653: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:29:17,662: INFO: common: created directory at: artifacts]
+[2023-08-06 19:29:17,667: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:32:16,650: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:32:16,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:32:16,660: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:32:16,660: INFO: common: created directory at: artifacts]
+[2023-08-06 19:32:16,660: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:32:19,148: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-08-06 19:41:15,939: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-08-06 19:41:15,943: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:41:15,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:41:15,952: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:41:15,956: INFO: common: created directory at: artifacts]
+[2023-08-06 19:41:15,956: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-06 19:41:16,680: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0F2C:0716:5AEC75:6DD256:64CFA07C
+Accept-Ranges: bytes
+Date: Sun, 06 Aug 2023 14:11:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990023-FJR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1691331077.006000,VS0,VE240
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b8318b6b811d1dc95bf38bfdb6e9dbf9914f22c0
+Expires: Sun, 06 Aug 2023 14:16:17 GMT
+Source-Age: 0
+
+]
+[2023-08-06 19:41:16,768: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:41:16,768: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-08-06 19:41:16,776: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:41:16,778: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:41:16,782: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:41:16,783: INFO: common: created directory at: artifacts]
+[2023-08-06 19:41:16,784: INFO: common: created directory at: artifacts/data_validation]
+[2023-08-06 19:41:16,846: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:41:16,847: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-08-06 19:41:16,853: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:41:16,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:41:16,861: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:41:16,862: INFO: common: created directory at: artifacts]
+[2023-08-06 19:41:16,863: INFO: common: created directory at: artifacts/data_transformation]
+[2023-08-06 19:41:16,912: INFO: data_transformation: Splited data into training and test sets]
+[2023-08-06 19:41:16,912: INFO: data_transformation: (1199, 12)]
+[2023-08-06 19:41:16,913: INFO: data_transformation: (400, 12)]
+[2023-08-06 19:41:16,915: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:41:16,915: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-08-06 19:41:16,921: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:41:16,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:41:16,928: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:41:16,929: INFO: common: created directory at: artifacts]
+[2023-08-06 19:41:16,930: INFO: common: created directory at: artifacts/model_trainer]
+[2023-08-06 19:41:17,030: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-08-06 19:41:17,031: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2023-08-06 19:41:17,038: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-06 19:41:17,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-06 19:41:17,042: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-06 19:41:17,042: INFO: common: created directory at: artifacts]
+[2023-08-06 19:41:17,044: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-08-06 19:41:17,798: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+==========================================']
+Traceback (most recent call last):
+  File "C:\Users\javed\wine quality\main.py", line 59, in <module>
+    data_ingestion.main()
+  File "c:\users\javed\wine quality\src\mlProject\pipeline\stage_05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "c:\users\javed\wine quality\src\mlProject\components\model_evaluation.py", line 40, in log_into_mlflow
+    with mlflow.start_run():
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "c:\Users\javed\wine quality\venv\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='
